@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import logo from '../images/'
+import logoBadge from '../images/badge-header.svg'
 
 class Badge extends React.Component {
 
@@ -8,7 +8,7 @@ class Badge extends React.Component {
         return(
             <div>
                 <div>
-                    <img src="" alt="Logo"/>
+                    <img src={logoBadge} alt="Logo"/>
                 </div>
                 <div>
                     <img src="" alt="Avatar"/>
