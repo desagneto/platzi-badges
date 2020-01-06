@@ -11,14 +11,14 @@ import ReactDOM from 'react-dom';
 import "bootstrap/dist/css/bootstrap.css"
 import "./global.css"
 
-import Badge from './components/Badge'
+// import Badge from './components/Badge'
 import BadgeNew from "./pages/BadgeNew";
 
-const name = 'Agneto';
+// const name = 'Agneto';
 
-const element = <h1>Hello {name}!!!!!</h1>;
+// const element = <h1>Hello {name}!!!!!</h1>;
 
-const element2 = React.createElement('h1', {}, `Hola, soy ${name}`);
+// const element2 = React.createElement('h1', {}, `Hola, soy ${name}`);
 
 const container = document.getElementById('app');
 

@@ -10,8 +10,8 @@ class Badge extends React.Component {
 
         // this.props;
 
-        const firstName = "Agneto";
-        const lastName = "Dev";
+        // const firstName = "Agneto";
+        // const lastName = "Dev";
 
         return(
             <div className="Badge">
