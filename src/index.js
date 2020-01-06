@@ -12,7 +12,8 @@ import "bootstrap/dist/css/bootstrap.css"
 import "./global.css"
 
 // import Badge from './components/Badge'
-import BadgeNew from "./pages/BadgeNew";
+// import BadgeNew from "./pages/BadgeNew";
+import Badges from "./pages/Badges";
 
 // const name = 'Agneto';
 
@@ -30,4 +31,4 @@ const container = document.getElementById('app');
 //     jobTitle="Frontend Engineer"
 //     twitter="desagneto23"/>, container);
 
-ReactDOM.render(<BadgeNew />, container);
+ReactDOM.render(<Badges />, container);
