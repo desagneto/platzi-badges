@@ -32,7 +32,6 @@ class Badge extends React.Component {
             </div>
         )
     }
-
 }
 
 export default Badge;
