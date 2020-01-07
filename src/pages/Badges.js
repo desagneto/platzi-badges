@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import './styles/Badges.css'
 
 import confLogo from '../images/badge-header.svg'
+import BadgeList from "../components/BadgeList";
 
 class Badges extends React.Component{
 
@@ -62,17 +63,7 @@ class Badges extends React.Component{
 
                     <div className="Badges__list">
                         <div className="Badges__container">
-                            <ul className="list-unstyled">
-                                {this.state.data.map(badge => {
-
-                                    return(
-                                        <li>
-                                            {badge.firstName} {badge.lastName}
-                                        </li>
-                                    )
-
-                                })}
-                            </ul>
+                            <BadgeList badges={this.state.data}/>
                         </div>
                     </div>
 
