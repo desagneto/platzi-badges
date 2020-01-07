@@ -13,7 +13,8 @@ import "./global.css"
 
 // import Badge from './components/Badge'
 // import BadgeNew from "./pages/BadgeNew";
-import Badges from "./pages/Badges";
+// import Badges from "./pages/Badges";
+import App from "./components/App";
 
 // const name = 'Agneto';
 
@@ -31,4 +32,4 @@ const container = document.getElementById('app');
 //     jobTitle="Frontend Engineer"
 //     twitter="desagneto23"/>, container);
 
-ReactDOM.render(<Badges />, container);
+ReactDOM.render(<App />, container);
