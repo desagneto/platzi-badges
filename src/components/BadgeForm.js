@@ -28,7 +28,7 @@ class BadgeForm extends React.Component {
         return(
             <div>
                 <h1>New Attendant</h1>
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.props.onSubmit}>
                     <div className="form-group">
                         <label>First name</label>
                         <input onChange={this.props.onChange} className="form-control" type="text" name="firstName"

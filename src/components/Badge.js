@@ -3,6 +3,7 @@ import React from 'react';
 import "./styles/Badge.css"
 
 import logoBadge from '../images/badge-header.svg'
+import Gravatar from "./Gravatar";
 
 class Badge extends React.Component {
 
@@ -19,7 +20,7 @@ class Badge extends React.Component {
                     <img src={logoBadge} alt="Logo"/>
                 </div>
                 <div className="Badge__section-name">
-                    <img className="Badge__avatar" src={this.props.avatarUrl} alt="Avatar"/>
+                    <Gravatar className="Badge__avatar" email={this.props.email} alt="Avatar"/>
                     <h1>{this.props.firstName} {this.props.lastName}</h1>
                 </div>
                 <div className="Badge__section-info">
