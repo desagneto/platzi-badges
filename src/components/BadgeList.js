@@ -4,7 +4,7 @@ import "./styles/BadgesList.css"
 import {Link} from "react-router-dom";
 import Gravatar from "./Gravatar";
 
-function userSarchBadges(badges) {
+function useSearchBadges(badges) {
 
     const [query, setQuery] = React.useState('');
 
@@ -29,7 +29,7 @@ function BadgeList(props){
 
     const badges = props.badges;
 
-    const {query, setQuery, filteredBadges} = userSarchBadges(badges);
+    const {query, setQuery, filteredBadges} = useSearchBadges(badges);
 
     if(filteredBadges.length === 0){
         return (
