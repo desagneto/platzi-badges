@@ -19,7 +19,7 @@ function useIncreaseCount(max) {
 function BadgeDetails(props) {
 
     const [count, setCount] = useIncreaseCount(4);
-    const badge = props;
+    const badge = props.badge;
 
     return(
         <div>
